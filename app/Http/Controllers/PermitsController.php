@@ -6,7 +6,7 @@ use App\User;
 use App\Http\Requests\Izin;
 use Illuminate\Http\Request;
 
-class IzinController extends Controller
+class PermitsController extends Controller
 {
     public function index ()
     {
