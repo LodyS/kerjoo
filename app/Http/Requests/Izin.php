@@ -31,9 +31,6 @@ class Izin extends FormRequest
 
     public function messages()
     {
-        return [
-            'tanggal_izin.required'=>'Tanggal wajib diisi',
-            'user_id.required'=>'Pegawai wajib diisi',
-        ];
+        return 'Gagal simpan karena data tidak lengkap';
     }
 }
