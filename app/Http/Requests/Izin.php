@@ -24,13 +24,8 @@ class Izin extends FormRequest
     public function rules()
     {
         return [
-            'tanggal_izin'=>'required|date_format:Y-m-d',
+            'tanggal_izin'=>'required',
             'user_id'=>'required',
         ];
-    }
-
-    public function messages()
-    {
-        return 'Gagal simpan karena data tidak lengkap';
     }
 }
